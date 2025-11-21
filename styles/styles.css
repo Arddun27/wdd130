@@ -11,12 +11,21 @@ body {
 :root {
 --background-color: #eee;
 --border-color: black;
+}
 
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
 
+.grid{
+    display: grid;
+    align-items: center;
 }
 
 main{
-    max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img{
@@ -26,7 +35,7 @@ main img{
     padding: .1rem;
     box-shadow: 0 0 15px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 
 p {
@@ -36,21 +45,29 @@ p {
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: var(--background-color);
     display: block;
     padding: 10px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+
 }
 
 h1 {
     color: darkblue;
     padding: .5rem;
+    border-bottom: 1px solid #000;
 }
 
 aside{
-    width: 840px;
+    width: 20rem;
     margin: 10px;
     border: 1px solid var(--border-color);
     padding: 1rem;
@@ -58,6 +75,8 @@ aside{
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img{
@@ -66,7 +85,7 @@ aside img{
 }
 
 aside h2{
-    position: absolute;
+    position: relative;
 
 }
 
