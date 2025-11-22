@@ -11,9 +11,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+header {
     background-color: var(--secondary-color);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 body{
     font-family: var(--body-font);
@@ -31,12 +34,7 @@ nav, p, section, article{
     margin: 16px;
     padding: 8px;
 }
-header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-nav{
+header nav{
     display: grid;
     grid-template-columns: 75px 100px 75px 80px;
     align-items: center;
@@ -44,10 +42,6 @@ nav{
 nav a{
     display: block;
     text-decoration: none;
-}
-.navigation a:hover {
-    color: red;
-    text-decoration: underline;
 }
 p img{
     position: relative;
@@ -74,6 +68,11 @@ h2{
     background-color: var(--secondary-color);
     text-align: center;
     padding: 10px;
+}
+footer nav{
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr 1fr;
+    align-items: center;
 }
 .socialmedia a{
     text-decoration: none;
