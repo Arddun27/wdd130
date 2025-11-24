@@ -28,7 +28,7 @@ header, main, footer{
 }
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 nav, p, section, article{
     margin: 16px;
@@ -69,10 +69,18 @@ h2{
     text-align: center;
     padding: 10px;
 }
-footer nav{
-    display: grid;
-    grid-template-columns: 10fr 1fr 1fr 1fr;
+
+footer{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+
+footer nav{
+   display: flex;
+   gap: 10px;
+   /* justify-self: flex-end; */
 }
 .socialmedia a{
     text-decoration: none;
