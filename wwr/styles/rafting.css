@@ -1,7 +1,7 @@
 :root{
 --primary-color: #fff;
---secondary-color: #34ebc9;
---accent1-color: #000;
+--secondary-color: #000 ;
+--accent1-color: #2C9C5C;
 --accent2-color: #244b82;
 --heading-font: "Times New Roman", "Georgia", serif;
 --body-font: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     display: flex;
     justify-content: space-evenly;
@@ -20,7 +20,7 @@ header {
 }
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 header, main, footer{
     width: 840px;
@@ -65,7 +65,7 @@ figure img{
     height: 100px;
 }
 h2{
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
     text-align: center;
     padding: 10px;
 }
