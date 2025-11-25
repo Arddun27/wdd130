@@ -120,6 +120,7 @@ footer nav{
 .hero article img{
     width: 100px;
     opacity: 1.0;
+    float: right;
 }
 .hero p{
     padding: 8px;
