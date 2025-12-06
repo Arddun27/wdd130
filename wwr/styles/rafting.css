@@ -50,6 +50,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: .5rem;
 }
 footer nav{
    display: flex;
@@ -194,7 +195,6 @@ button{
     padding: .50rem;
     width: 350px;
 }
-
 .employee-profile div{
     display: flex;
     flex-wrap: wrap;
@@ -206,7 +206,78 @@ button{
 .employee-profile h2{
     margin-top: 30px;
 }
-
 .employee-profile img{
     width: 200px;
 }
+
+
+.homepage-h1 h1{
+    font-size: 2.5rem;
+}
+.homepage-newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homepage-email{
+    border:1px solid black;
+    padding: 1rem;
+}
+.homepage-adventure figure{
+    margin: 1rem;
+}
+.homepage-adventure img{
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+figcaption{
+    text-align: center;
+}
+
+.trips-name{
+    color: #244b82;
+    font-size: 2rem;
+}
+.trips-description{
+    font-size: 1rem;
+}
+.head-caption{
+    font-size: 2rem;
+}
+.trip-ads div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.trip-ads figure{
+    background-color: var(--accent1-color);
+    border: 2px solid maroon;
+    width: 30rem;
+}
+.trip-ads img{
+    width: 200px;
+    height: auto;
+    margin: 1rem auto .5rem auto ;
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+}
+.trip-ads figcaption{
+    margin-top: 1rem;
+    
+}
+.trip-ads aside{
+    margin: .5rem .5rem .5rem;
+}
+.contact-link{
+    font-size: 2rem;
+    width: 100%;
+    margin: 3rem auto 3rem auto ;
+    background-color: #fff;
+    border: 2px solid maroon;
+    text-decoration: none;
+    color: #000;;
+}
+
+
